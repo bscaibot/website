@@ -2116,3 +2116,17 @@ section {
 #footer .credits a:hover {
   color: white;
 }
+
+/* Firefox */
+@media (prefers-color-scheme: dark) {
+  :root {
+      color-scheme: light;
+  }
+}
+
+/* Chrome */
+@media (forced-colors: active) {
+  :root {
+      color-scheme: light;
+  }
+}
