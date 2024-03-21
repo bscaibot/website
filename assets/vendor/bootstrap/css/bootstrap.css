@@ -185,6 +185,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  color-scheme: only light;
 }
 
 @media (prefers-reduced-motion: no-preference) {
