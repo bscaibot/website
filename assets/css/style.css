@@ -1964,14 +1964,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #2E2E2E;
+  background: #191919;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #434343;
+  background: #2C2C2C;
   padding: 60px 0 30px 0;
 }
 
