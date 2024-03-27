@@ -9,12 +9,17 @@
 
 <url>
   <loc>https://bscaibot.com/</loc>
-  <lastmod>2024-03-21T15:55:10+00:00</lastmod>
+  <lastmod>2024-03-27T22:59:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://bscaibot.com/token</loc>
+  <lastmod>2024-03-27T23:00:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://bscaibot.com/about</loc>
-  <lastmod>2024-03-21T15:55:10+00:00</lastmod>
+  <lastmod>2024-03-27T22:59:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
