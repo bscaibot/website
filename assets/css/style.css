@@ -171,9 +171,9 @@ h6 {
 .telegram,
 .telegram:focus {
   background: #d9232d;
-  padding: 8px 25px;
+  padding: 12px 30px;
   border-radius: 4px;
-  font-weight: 400;
+  font-weight: 600;
   color: #fff;
 }
 
