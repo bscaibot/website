@@ -18,12 +18,22 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://bscaibot.com/about</loc>
+  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://bscaibot.com/about/whitepaper</loc>
   <lastmod>2024-03-29T19:44:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/contact</loc>
+  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bscaibot.com/tutorials</loc>
   <lastmod>2024-03-29T19:48:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
