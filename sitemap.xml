@@ -9,22 +9,32 @@
 
 <url>
   <loc>https://bscaibot.com/</loc>
-  <lastmod>2024-03-29T06:05:18+00:00</lastmod>
+  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/token</loc>
-  <lastmod>2024-03-29T06:22:23+00:00</lastmod>
+  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bscaibot.com/about</loc>
-  <lastmod>2024-03-29T06:05:18+00:00</lastmod>
+  <loc>https://bscaibot.com/about/whitepaper</loc>
+  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/contact</loc>
-  <lastmod>2024-03-29T06:22:23+00:00</lastmod>
+  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bscaibot.com/tutorials/mint</loc>
+  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://bscaibot.com/tutorials/sell</loc>
+  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
