@@ -1348,7 +1348,7 @@ section {
 
 .contact .info .email,
 .contact .info .phone {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .contact .info .email:hover i,
