@@ -168,6 +168,22 @@ h6 {
   background: #e1444d;
 }
 
+.telegram,
+.telegram:focus {
+  background: #d9232d;
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.telegram:hover,
+.telegram:focus:hover {
+  color: #fff;
+  background: #e1444d;
+}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
