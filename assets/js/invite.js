@@ -1,28 +1,38 @@
 class Invite {
 
+    referral;
+
     constructor() {
+        this.referral = this.getRef();
         var h = window.location.href;
         var r = h.split("?r=")[1];
-        if (r != undefined) {
+        if (r != undefined && this.referral.length == 0) {
             var url = document.getElementById("url");
             url.value = url.value + "?r=" + r;
             var code = document.getElementById("code");
             code.innerHTML = r;
+            localStorage.setItem("r", r);
+            this.referral = r;
         }
     }
 
     copyDappLink() {
         var copyText = document.getElementById("url");
-
-        // Select the text field
         copyText.select();
-        copyText.setSelectionRange(0, 99999); // For mobile devices
-      
-         // Copy the text inside the text field
+        copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value);
-      
-        // Alert the copied text
         alert("Copied the text: " + copyText.value);
+    }
+
+    getRef() {
+        var r = localStorage.getItem("r");
+        if (r != undefined && r.length > 0) {
+            return r;
+        } else if (this.referral != undefined && this.referral.length > 0) {
+            return this.referral;
+        } else {
+            return "";
+        }
     }
 
 }
