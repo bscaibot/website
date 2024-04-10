@@ -13,6 +13,11 @@ class Invite {
             code.innerHTML = r;
             localStorage.setItem("r", r);
             this.referral = r;
+        } else if (this.referral.length > 0) {
+            var url = document.getElementById("url");
+            url.value = url.value + "?r=" + this.referral;
+            var code = document.getElementById("code");
+            code.innerHTML = this.referral;
         }
     }
 
