@@ -27,5 +27,7 @@ class Invite {
 
 }
 
-const inv = new Invite();
-window["inv"] = inv;
+addEventListener("DOMContentLoaded", (event) => {
+    const inv = new Invite();
+    window["inv"] = inv;
+});
