@@ -203,18 +203,40 @@
           <div class="col-md-6">
             <div class="reply-form" style="margin-top: 0px;">
               <h4>Calculate Your ROI</h4>
-              <p>Use the calculator below to calculate ROI when minting BSCAI token.</p>
+              <p class="mb-2">Use the calculator below to calculate ROI when minting BSCAI token.</p>
               <form action="javascript: void null;">
                 <div class="row">
                   <div>
-                    <label for="investment"><strong>Investment ($):</strong></label>
-                    <input name="website" type="text" class="form-control" placeholder="eg. 100">
+                    <div class="mb-3">
+                      <label for="investment"><strong>Investment ($):</strong></label>
+                      <input name="website" type="text" class="form-control" placeholder="eg. 100">
+                    </div>
+                    <div class="mb-3">
+                      <label for="months"><strong>Staking Period:</strong></label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          3 Months
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          6 Months
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          12 Months
+                        </label>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="row mt-3">
-                  <p>ROI calculator is under construction.</p>
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary btn-block">Calculate Your ROI</button>
                 </div>
-                <button type="submit" class="btn btn-primary">Calculate Your ROI</button>
               </form>
             </div>
           </div>
