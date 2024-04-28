@@ -208,11 +208,11 @@
                 <div class="row">
                   <div>
                     <div class="mb-3">
-                      <label for="investment"><strong>Investment ($):</strong></label>
+                      <label for="investment" class="mb-1"><strong>Investment ($)</strong></label>
                       <input name="website" type="text" class="form-control" placeholder="eg. 100">
                     </div>
                     <div class="mb-3">
-                      <label for="months"><strong>Staking Period:</strong></label>
+                      <label for="months" class="mb-1"><strong>Staking Period</strong></label>
                       <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -232,10 +232,19 @@
                         </label>
                       </div>
                     </div>
+                    <div class="mb-3">
+                      <label for="results" class="mb-1"><strong>Results</strong></label>
+                      <ul style="  list-style-type: none;" class="p-0">
+                        <li><i class="bi bi-check-all"></i>&nbsp;&nbsp;After 1 month: $<span>0.0</span></li>
+                        <li><i class="bi bi-check-all"></i>&nbsp;&nbsp;After 3 month: $<span>0.0</span></li>
+                        <li><i class="bi bi-check-all"></i>&nbsp;&nbsp;After 6 month: $<span>0.0</span></li>
+                        <li><i class="bi bi-check-all"></i>&nbsp;&nbsp;After 12 month: $<span>0.0</span></li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-primary btn-block">Calculate Your ROI</button>
+                  <button onclick="calculateApy();" class="btn btn-primary btn-block">Calculate Your ROI</button>
                 </div>
               </form>
             </div>

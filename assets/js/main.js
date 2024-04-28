@@ -181,3 +181,7 @@
   }
 
 })()
+
+function calculateApy() {
+  console.log("fdfdasf");
+}
