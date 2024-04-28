@@ -182,6 +182,57 @@
 
 })()
 
-function calculateApy() {
-  console.log("fdfdasf");
+function calculateApy(i, m, s) {
+  var e = parseFloat(0);
+  var r = parseFloat(0);
+  var price = i;
+  price = price * (1.005 ** s);
+
+  if (m == 3) {
+    r = 1.001;
+  } else if (m == 6) {
+    r = 1.002;
+  } else if (m == 12) {
+    r = 1.003;
+  }
+
+  var reward = r ** s;
+  return reward * price;
+}
+
+function calculateApyClick() {
+  const formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+  
+    // These options are needed to round to whole numbers if that's what you want.
+    //minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+    //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
+  });
+
+  var i = $("#investment").val();
+  var m = $('input[name="months"]:checked').val();
+
+  if (i != "") {
+    $("#calcSuccess").fadeIn();
+    
+    var e = calculateApy(parseFloat(i), parseInt(m), 30);
+    $("#1monthresult").html(formatter.format(e));
+  
+    var e = calculateApy(parseFloat(i), parseInt(m), 90);
+    $("#3monthresult").html(formatter.format(e));
+  
+    var e = calculateApy(parseFloat(i), parseInt(m), 180);
+    $("#6monthresult").html(formatter.format(e));
+  
+    var e = calculateApy(parseFloat(i), parseInt(m), 365);
+    $("#12monthresult").html(formatter.format(e));
+  } else {
+    $("#calcError").fadeIn(function() {
+      setTimeout(function() {
+        $("#calcError").fadeOut();
+      }, 2000);
+    });
+  }
+
 }
