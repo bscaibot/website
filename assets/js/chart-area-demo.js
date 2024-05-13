@@ -7,7 +7,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Mar 1, 2022", "May 1, 2022", "Jul 1, 2022 ", "Sep 1, 2022", "Nov 1, 2022", "Jan 1, 2023", "Mar 1, 2023", "May 1, 2023", "Jul 1, 2023", "Sep 1, 2023", "Nov 1, 2023", "Jan 1", "Mar 1"],
+    labels: ["Mar 1, 2022", "May 1, 2022", "Jul 1, 2022 ", "Sep 1, 2022", "Nov 1, 2022", "Jan 1, 2023", "Mar 1, 2023", "May 1, 2023", "Jul 1, 2023", "Sep 1, 2023", "Nov 1, 2023", "Jan 1", "Mar 1", "May 1"],
     datasets: [{
       label: "Price ($)",
       lineTension: 0.3,
@@ -20,7 +20,7 @@ var myLineChart = new Chart(ctx, {
       pointHoverBackgroundColor: "rgba(2,117,216,1)",
       pointHitRadius: 50,
       pointBorderWidth: 2,
-      data: [0.52, 0.70, 0.95, 1.28, 1.72, 2.52, 3.13, 4.01, 6.51, 7.69, 11.87, 13.98, 18.86],
+      data: [0.52, 0.70, 0.95, 1.28, 1.72, 2.52, 3.13, 4.01, 6.51, 7.69, 11.87, 13.98, 18.86, 22.81],
     }],
   },
   options: {
