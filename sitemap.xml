@@ -9,43 +9,53 @@
 
 <url>
   <loc>https://bscaibot.com/</loc>
-  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/token</loc>
-  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <lastmod>2024-05-13T20:52:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bscaibot.com/about</loc>
-  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <loc>https://bscaibot.com/about/</loc>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/about/whitepaper</loc>
-  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/contact</loc>
-  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <lastmod>2024-05-13T20:52:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://bscaibot.com/tutorials</loc>
-  <lastmod>2024-03-29T19:48:32+00:00</lastmod>
+  <loc>https://bscaibot.com/tutorials/airdrop</loc>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://bscaibot.com/tutorials/mint</loc>
-  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://bscaibot.com/tutorials/</loc>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://bscaibot.com/tutorials/sell</loc>
-  <lastmod>2024-03-29T19:44:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://bscaibot.com/tutorials/referral</loc>
+  <lastmod>2024-05-13T20:45:40+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
