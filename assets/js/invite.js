@@ -26,7 +26,11 @@ class Invite {
         copyText.select();
         copyText.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(copyText.value);
-        alert("Copied the text: " + copyText.value);
+        $("#linkCopied").fadeIn(function() {
+            setTimeout(function() {
+                $("#linkCopied").fadeOut();
+            }, 2000);
+        });
     }
 
     getRef() {
