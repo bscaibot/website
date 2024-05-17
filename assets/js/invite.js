@@ -10,14 +10,15 @@ class Invite {
             var url = document.getElementById("url");
             url.value = url.value + "?r=" + r;
             var code = document.getElementById("code");
-            code.innerHTML = r;
+            console.log(r);
+            code.value = r;
             localStorage.setItem("r", r);
             this.referral = r;
         } else if (this.referral.length > 0) {
             var url = document.getElementById("url");
             url.value = url.value + "?r=" + this.referral;
             var code = document.getElementById("code");
-            code.innerHTML = this.referral;
+            code.value = this.referral;
         }
     }
 
@@ -29,6 +30,18 @@ class Invite {
         $("#linkCopied").fadeIn(function() {
             setTimeout(function() {
                 $("#linkCopied").fadeOut();
+            }, 2000);
+        });
+    }
+
+    copyDappCode() {
+        var copyText = document.getElementById("code");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+        $("#codeCopied").fadeIn(function() {
+            setTimeout(function() {
+                $("#codeCopied").fadeOut();
             }, 2000);
         });
     }
