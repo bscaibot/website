@@ -20,6 +20,8 @@ class Invite {
             var code = document.getElementById("code");
             code.value = this.referral;
         }
+
+        this.loadAirdropStats();
     }
 
     copyDappLink() {
@@ -55,6 +57,12 @@ class Invite {
         } else {
             return "";
         }
+    }
+
+    async loadAirdropStats() {
+        var data = await $.getJSON("https://web.bscaibot.com/data.json");
+        $("#ac").html(data.airdrops_claimed);
+        $("#al").html(data.airdrops_left);
     }
 
 }
