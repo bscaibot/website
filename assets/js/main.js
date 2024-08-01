@@ -76,7 +76,7 @@
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
-    document.getElementsByClassName("drpdwnlnk")[0].style.display = "";
+    // document.getElementsByClassName("drpdwnlnk")[0].style.display = "";
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
