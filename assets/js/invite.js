@@ -60,9 +60,10 @@ class Invite {
     }
 
     async loadAirdropStats() {
-        var data = await $.getJSON("https://web.bscaibot.com/data.json");
-        $("#ac").html(data.airdrops_claimed);
-        $("#al").html(data.airdrops_left);
+        $.getJSON("https://web.bscaibot.com/data.json", function(data) {
+            $("#ac").html(data.airdrops_claimed);
+            $("#al").html(data.airdrops_left);
+        });
     }
 
 }
